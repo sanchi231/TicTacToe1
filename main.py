@@ -65,9 +65,11 @@ def handle_turn(player):
   print()
   print(player + "'s turn.")
   # Asking the user to enter a position to enter either X or O
+  
   position = input("Choose a position from 1-9: ")
 
   # Checking if the user enters only the numbers between the range 1-9
+  print()
   if position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
     position = input("Invalid input. Choose a position from 1-9: ")
 
